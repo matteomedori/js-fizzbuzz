@@ -1,0 +1,35 @@
+body {
+  background-color: aqua;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+/*
+------------
+Class added by js
+------------
+*/
+
+.my-col {
+  width: calc((100% / 7) - 10px);
+  height: 120px;
+  line-height: 120px;
+  background-color: blueviolet;
+}
+
+.fizz-bg {
+  background-color: brown;
+}
+
+.buzz-bg {
+  background-color: green;
+}
+
+.fizzbuzz-bg {
+  background-color: red;
+}
